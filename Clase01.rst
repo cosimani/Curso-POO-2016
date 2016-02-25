@@ -12,7 +12,7 @@ Clase 01 - POO 2016
     	- 2 parciales 
 	- 1 TPU como tercer parcial
 	- Presentación de trabajos en CoNaIISI 2016
-		- http://conaiisi2015.utn.edu.ar/fechas.html – Hasta 16 de septiembre
+		- http://www.ucasal.edu.ar/conaiisi2016/ – Hasta 16 de septiembre
 			- Se presentan avances en lugar de cada parcial y TPU
 	    	- Pueden proponer otro congreso
     :Temas principales: 
