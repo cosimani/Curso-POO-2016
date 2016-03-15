@@ -55,6 +55,7 @@ Espacio de nombres (namespace)
 Ejemplos con namespace
 ======================
 
+- Ejemplo 1:
 .. code-block:: c
 
 	#include <iostream>
@@ -77,7 +78,7 @@ Ejemplos con namespace
 	}
 
 - ¿Cuál es la salida por consola?
-	
+
  <!---  
  Publica:    5    5.14
  --->
