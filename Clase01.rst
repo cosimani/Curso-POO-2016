@@ -61,24 +61,21 @@ Ejemplos con namespace
 	using namespace std;
 
 	namespace enteros  {
-		int var1 = 5;
-		int var2 = 7;
+	    int var1 = 5;
+	    int var2 = 7;
 	}
 
 	namespace con_decimales  {
-		float var1 = 5.14;
-		float var2 = 7.13;
+	    float var1 = 5.14;
+	    float var2 = 7.13;
 	}
 
 	int main()  {
-		cout << enteros::var1 << endl;
-		cout << con_decimales::var1 << endl;
-		return 0;
+	    cout << enteros::var1 << endl;
+	    cout << con_decimales::var1 << endl;
+	    return 0;
 	}
 
-<!---  
- Publica:    5    5.14
- --->
 
 <!--- Need blank line before this line (and the .. line above).
  HTML comment written with 3 dashes so that Pandoc suppresses it.
