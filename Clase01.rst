@@ -235,7 +235,7 @@ Función Genérica
 
 - El compilador utiliza el código de la función genérica como plantilla para crear automáticamente dos funciones sustituyendo T por el tipo de dato concreto.
 
-.. code-block:: 
+.. code-block:: c
 
 	Con T = int		>	void imprimir(int v[], int cantidad)
 
