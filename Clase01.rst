@@ -82,7 +82,7 @@ Ejemplos con namespace
 .. ..
 
  <!---  
- Publica:    5    5.14
+ Publica:    5    5.14		(para ocultar requiere una primer linea con .. ..    Los que queremos ocultar debe tener el menos un espacio)
  --->
 
 
