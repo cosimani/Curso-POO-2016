@@ -6,7 +6,7 @@ Clase 01 - POO 2016
 ===================
 
     :Autor: César Osimani
-    :Correo: cosimani@ubp.edu.ar - cesarosimani@gmail.com
+    :Correos: cosimani@ubp.edu.ar - cesarosimani@gmail.com
     :Fecha: 15 de marzo de 2016
     :Regularidad: 
     	- 2 parciales 
