@@ -155,7 +155,7 @@ Ejemplos con namespace
  Publica:    5		7		5.14		7.13
  --->
 
-- Ejemplo 4
+**Ejemplo 4**
 
 .. code-block:: c
 
