@@ -56,6 +56,7 @@ Ejemplos con namespace
 ======================
 
 **Ejemplo 1**
+
 .. code-block:: c
 
 	#include <iostream>
@@ -86,6 +87,7 @@ Ejemplos con namespace
  --->
 
 **Ejemplo 2**
+
 .. code-block:: c
 
 	#include <iostream>
@@ -120,6 +122,7 @@ Ejemplos con namespace
  --->
 
 **Ejemplo 3**
+
 .. code-block:: c
 
 	#include <iostream>
@@ -153,6 +156,7 @@ Ejemplos con namespace
  --->
 
 - Ejemplo 4
+
 .. code-block:: c
 
 	#include <iostream>
@@ -188,11 +192,14 @@ Ejemplos con namespace
  Publica:    5		5.14
  --->
 
+ 
 Función Genérica
 ================
 
 - Supongamos que debemos implementar una función que imprima en la salida los valores de un array de enteros:
+
 .. code-block:: c
+
 	void imprimir (int v[], int cantidad)  {
 	    for (int i=0 ; i < cantidad ; i++)
 	        cout << v[i] << " ";
@@ -204,11 +211,13 @@ Función Genérica
 	}
 
 - Ahora necesitamos la impresión de un array de float
+
 .. code-block:: c
 
 	void imprimir(float v[], int cantidad);
 
 - Vemos que las versiones se diferencian por el tipo de datos del array. Entonces podemos utilizar lo siguiente:
+
 .. code-block:: c
 
 	template <class T> void imprimir (T v[], int cantidad)  {
@@ -225,6 +234,7 @@ Función Genérica
 	}
 
 - El compilador utiliza el código de la función genérica como plantilla para crear automáticamente dos funciones sustituyendo T por el tipo de dato concreto.
+
 .. code-block:: 
 
 	Con T = int		>	void imprimir(int v[], int cantidad)
@@ -232,11 +242,13 @@ Función Genérica
 	Con T = float	>	void imprimir(float v[], int cantidad)
 
 - Aquí, la única operación que realizamos sobre los valores de tipo T es:
+
 .. code-block:: c
 
 	cout << v[i]
 
 - Esto pone una restricción, ya que sólo se admitirá los tipos de datos para los que se puedan imprimir en pantalla con:
+
 .. code-block:: c
 
 	cout <<
