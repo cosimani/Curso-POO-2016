@@ -76,8 +76,11 @@ Ejemplos con namespace
 	    return 0;
 	}
 
+ <!---  
+ Publica:    5    5.14
+ --->
 
-<!--- Need blank line before this line (and the .. line above).
+ <!--- Need blank line before this line (and the .. line above).
  HTML comment written with 3 dashes so that Pandoc suppresses it.
  Blank lines may appear anywhere in the comment.
 
