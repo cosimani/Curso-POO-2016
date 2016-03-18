@@ -74,4 +74,83 @@ Cadena de caracteres
 - Los valores serán aleatorios y positivos menores o iguales a 10.
 - Utilizar un algoritmo para ordenar de menor a mayor estos números.
 
+Clases
+======
+
+.. code-block:: c
+
+	class ClaseEjemplo  {
+	    // Lista de miembros (generalmente funciones y datos)
+	    // Los datos no pueden ser inicializados (es una declaración)
+	    // Si las funciones se definen fuera, se usa el operador :: 
+	    // :: es el operador de acceso a ámbito
+	};
+
+**Ejemplo:**
+
+.. code-block:: c
+
+	#include <iostream>
+	using namespace std;
+
+	class Punto  {
+	private:
+	    // Datos miembro de la clase "Punto"
+	    int a, b;
+	public:
+	    // Funciones miembro de la clase "Punto"
+	    void getDatos(int &a2, int &b2);
+	    void setDatos(int a2, int b2) {
+	        a = a2;
+	        b = b2;
+	    }
+	};
+
+	void Punto::getDatos(int &a2, int &b2) {
+	    a2 = a;
+	    b2 = b;
+	}
+
+	int main() {
+	    Punto punto1;
+		int x, y;  // Variables donde se copiarán los valores de punto1
+
+	    punto1.setDatos(12, 32);
+	    punto1.getDatos(x, y);
+
+	    cout << "(" << x << “, ” << y << “)” << endl;
+	}
+
+La función "setDatos()" se definió en el interior de la clase (lo haremos sólo cuando la definición sea muy simple, ya que dificulta la lectura y comprensión del programa). 
+
+**Constructor**
+
+.. code-block:: c
+
+	class Punto  {
+	public:
+	    Punto(int a2, int b2);
+
+	    void getDatos(int &a2, int &b2);
+	    void setDatos(int a2, int b2);
+	private:
+	    // Datos miembro de la clase "Punto"
+	    int a, b;
+	};
+
+	Punto::Punto(int a2, int b2) {
+	    a = a2;
+	    b = b2;
+	}
+
+	void Punto::getDatos(int &a2, int &b2) {
+	    a2 = a;
+	    b2 = b;
+	}
+
+	void Punto::setDatos(int a2, int b2) {
+	    a = a2;
+	    b = b2;
+	}
+
 
