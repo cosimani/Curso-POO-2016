@@ -97,21 +97,22 @@ Clases
 	private:
 	    // Datos miembro de la clase "Punto"
 	    int a, b;
+		
 	public:
 	    // Funciones miembro de la clase "Punto"
 	    void getDatos(int &a2, int &b2);
-	    void setDatos(int a2, int b2) {
+	    void setDatos(int a2, int b2)  {
 	        a = a2;
 	        b = b2;
 	    }
 	};
 
-	void Punto::getDatos(int &a2, int &b2) {
+	void Punto::getDatos(int &a2, int &b2)  {
 	    a2 = a;
 	    b2 = b;
 	}
 
-	int main() {
+	int main()  {
 	    Punto punto1;
 		int x, y;  // Variables donde se copiarán los valores de punto1
 
@@ -120,8 +121,9 @@ Clases
 
 	    cout << "(" << x << “, ” << y << “)” << endl;
 	}
-
-La función "setDatos()" se definió en el interior de la clase (lo haremos sólo cuando la definición sea muy simple, ya que dificulta la lectura y comprensión del programa). 
+	
+	// La función "setDatos()" se definió en el interior de la clase (lo haremos sólo cuando
+	// la definición sea muy simple, ya que dificulta la lectura y comprensión del programa). 
 
 **Constructor**
 
@@ -133,24 +135,90 @@ La función "setDatos()" se definió en el interior de la clase (lo haremos sól
 
 	    void getDatos(int &a2, int &b2);
 	    void setDatos(int a2, int b2);
+		
 	private:
 	    // Datos miembro de la clase "Punto"
 	    int a, b;
 	};
 
-	Punto::Punto(int a2, int b2) {
+	Punto::Punto(int a2, int b2)  {
 	    a = a2;
 	    b = b2;
 	}
 
-	void Punto::getDatos(int &a2, int &b2) {
+	void Punto::getDatos(int &a2, int &b2)  {
 	    a2 = a;
 	    b2 = b;
 	}
+
+	void Punto::setDatos(int a2, int b2)  {
+	    a = a2;
+	    b = b2;
+	}
+
+**Cuestiones sobre declaraciones**
+
+.. code-block:: c
+
+	Punto punto1;  // Llama al constructor sin parámetros. En esta última versión 
+	               // de Punto, esto no serviría, ya que no hay constructor sin parámetros. 
+				   // Si no se especifica un constructor, el compilador crea uno (igual que 
+				   // en Java). Por lo tanto, esta declaración sirve para una clase Punto 
+				   // donde el programador no escriba constructor.
+
+	Punto punto1();  // Se entiende como el prototipo de una función sin parámetros que 
+	                 // devuelve un objeto Punto. Es decir, no sirve para instanciar un 
+					 // objeto con el contructor sin parámetros de Punto.
+
+	Punto punto1(12,43);  // Válido
+	Punto punto2(45,34);  // Válido
+
+
+**Inicialización de objetos**
+
+.. code-block:: c
+
+	Punto(int a2, int b2)  {
+	    a = a2;
+	    b = b2;
+	}
+
+	// O también se permite:
+
+	Punto::Punto(int a2, int b2) : a(a2), b(b2)  {  }
+
+	Punto::Punto() : a(0), b(0)  {  }
+
+**El puntero this**
+
+.. code-block:: c
+
+	#include <iostream>
+	using namespace std;
+
+	class Punto  {
+	public:
+	    // Constructor
+	    Punto(int a2, int b2)  {  }
+	
+	    // Funciones miembro de la clase "Punto"
+	    void getDatos(int &a2, int &b2)  {  }
+	    void setDatos(int a2, int b2);
+	
+	private:
+	    // Datos miembro de la clase "Punto"
+	    int a, b;
+	};
 
 	void Punto::setDatos(int a2, int b2) {
 	    a = a2;
 	    b = b2;
 	}
 
+	// O lo podemos hacer con this:
+
+	void Punto::setDatos(int a2, int b2) {
+	    this->a = a2;
+	    this->b = b2;
+	}
 
