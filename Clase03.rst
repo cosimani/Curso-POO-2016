@@ -106,23 +106,40 @@ Punteros
 
 	void imprimirParametros(int cantidad, ...)  {
 
-	    va_list argumentos; // esta linea declara la lista de parametros
+	    // En cstdarg se define un tipo va_list y define tres macros (va_start, va_arg y va_end)
+	    // para moverse por la lista de argumentos cuyo numero y tipo no son conocidos.
 
-	    // esta linea empieza el bucle sobre la lista de parametros (sin saber
-	    // el numero de parametros)
+	    // Aqui se declara la lista de parametros
+	    va_list argumentos; 
+				
+	    // La macro va_start inicializa 'argumentos' para ser usado por va_arg y va_end.
+	    // 'cantidad' es el nombre del ultimo parametro antes de la lista de argumentos.
 	    va_start(argumentos, cantidad); 
 
 	    for (int i=0 ; i<cantidad ; i++)  {
+
+		    // La macro va_arg contiene el tipo y el valor del proximo argumento. 
+			// Cada llamada a va_arg devuelve el resto de los argumentos.
 
 	        int valor = va_arg( argumentos, int );  // Devuelve en formato de int
 
 	        cout << valor << endl;
 	    }
 
+		// A cada invocacion de va_start le corresponde una invocacion de va_end
+        // en la misma funcion. 	   
 	    va_end(argumentos);  // Para limpiar la pila de parametros
 	}
 	
+**Ejercicio:** 
+
+- Definir una función (que se llame mi_printf) que realice el mismo trabajo que la famosa printf. 
+- Investigar qué tipos de datos se pueden utilizar en va_arg
+
+.. code-block:: c
 	
+	int printf(const char* format, ...)
+
 Primer aplicación en Qt con interfaz gráfica
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
