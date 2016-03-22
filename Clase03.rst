@@ -126,8 +126,8 @@ Punteros
 	        cout << valor << endl;
 	    }
 
-		// A cada invocacion de va_start le corresponde una invocacion de va_end
-        // en la misma funcion. 	   
+	    // A cada invocacion de va_start le corresponde una invocacion de va_end
+	    // en la misma funcion. 	   
 	    va_end(argumentos);  // Para limpiar la pila de parametros
 	}
 	
