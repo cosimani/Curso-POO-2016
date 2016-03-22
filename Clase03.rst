@@ -89,7 +89,12 @@ Punteros
 
 **Función con número indefinido de parámetros**
 
-- Requiere #include <cstdarg>
+- Requiere:
+
+.. code-block:: c
+
+	#include <cstdarg>
+
 - Imprime los enteros que se pasen como parámetro
 - Se puede comprender la sintaxis de:
 
