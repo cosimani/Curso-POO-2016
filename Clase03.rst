@@ -136,6 +136,42 @@ Punteros
 - Definir una función (que se llame mi_printf) que realice el mismo trabajo que la famosa printf. 
 - Investigar qué tipos de datos se pueden utilizar en va_arg
 
+.. ..
+
+ <!---  
+ - Se puede pasar cualquier tipo siempre que sea con punteros:
+ 
+ #include <QApplication>
+ #include <QString>
+ #include <QDebug>
+ #include <cstdarg>
+
+ void imprimirParametros(int cantidad, ...)  {
+     va_list argumentos; // esta linea declara la lista de parametros
+     va_start(argumentos, cantidad);
+
+     for (int i=0 ; i<cantidad ; i++)  {
+         QString *str = va_arg( argumentos, QString* );
+         qDebug() << *str;
+     } 
+
+     va_end(argumentos);  // Para limpiar la pila de parametros
+ }
+ 
+ int main(int argc, char** argv)  {
+     QApplication app(argc, argv);
+ 
+     imprimirParametros(3, new QString("uno"), new QString("dos"), new QString("tres"),
+                        new QString("cuatro"), new QString("cinco"));
+
+     return 0;
+ }
+
+ --->
+ 
+ 
+
+
 .. code-block:: c
 	
 	int printf(const char* format, ...)
