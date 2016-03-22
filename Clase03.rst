@@ -194,7 +194,7 @@ Signals y slots
 	    return a.exec();
 	}
 
-**Ejemplo:** Control de volúmen
+**Ejemplo:** Control de volumen
 
 .. code-block:: c
 
