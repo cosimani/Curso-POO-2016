@@ -176,6 +176,8 @@ Macro Q_OBJECT
 QGroupBox
 ^^^^^^^^^ 
 
+.. figure:: images/clase04/qgroupbox.png
+
 .. code-block:: c
 
 	QGroupBox* grupo = new QGroupBox("Texto");
