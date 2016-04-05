@@ -22,7 +22,7 @@ Sutilezas con punteros
 	// compilador lo agrega (si tiene lugar).
 
 	//    \000  (octal)
-    //    \x0   (hexadecimal)    
+	//    \x0   (hexadecimal)    
 
 Usando puntero para cadenas
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -90,14 +90,18 @@ Volviendo a puntero a puntero
 .. code-block:: c
 
 	char cadena[2][3] = {{'s', 'i', '\000'}, {'n', 'o', '\000'}};
+	// Y si fuera char cadena[2][3] = {{'s', 'i', '-'}, {'n', 'o', '\000'}};
 	char* p1;
 	char* p2;
 
 	p1 = cadena[0];   // p1 = &cadena[0][0];
 	p2 = cadena[1];   // p2 = &cadena[1][0];
 
-	cout << p1;  // si
+	cout << p1;  // si  
 	cout << p2;  // no
+	
+	cout << *p1;  // ?
+	cout << *p2;  // ?
 
 	// Es decir:
 	//    El identificador de un arreglo unidimensional 
