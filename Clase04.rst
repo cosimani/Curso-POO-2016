@@ -173,3 +173,6 @@ Macro Q_OBJECT
 	    }
 	}
 
+**Ejercicio:**
+
+.. figure:: images/clase04/ejercicio.jpg
