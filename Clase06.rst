@@ -159,6 +159,10 @@ QTextEdit
 	- Contendrá un QTextEdit vacío, un QPushButton "Buscar" y un QLabel
 	- El usuario podrá escribir cualquier texto en el QTextEdit
 	- Al presionar "Buscar" se detectará automáticamente la cantidad de letras 'a' en el texto y colocará el resultado en el QLabel.
+- Luego de dejar funcionando lo anterior, agregar lo siguiente:
+	- Un QLineEdit y un QPushButton "Borrar"
+	- En este QLineEdit el usuario puede colocar una palabra o frase
+	- Al presionar Borrar se buscará en el texto y se eliminarán
 
 **Ejercicio:**
 
