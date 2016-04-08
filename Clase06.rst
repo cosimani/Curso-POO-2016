@@ -164,12 +164,4 @@ QTextEdit
 	- En este QLineEdit el usuario puede colocar una palabra o frase
 	- Al presionar Borrar se buscará en el texto y se eliminarán
 
-**Ejercicio:**
-
-- Al ejercicio anterior agregar un nuevo QWidget en la clase NuevoUsuario que aparezca luego de hacer clic en Aceptar del Formulario.
-- Este nuevo QWidget deberá tener 3 QLabels que muestren Legajo, Nombre y Apellido.
-- Estos QLabels deberán ser parte del layout de un QGroupBox.
-
-
-
 
