@@ -18,13 +18,13 @@ El preprocesador
 -	Analiza el archivo fuente antes de la compilación real
 -	Realiza las sustituciones de macros
 -	Una macro es un patrón de sustitución formado por expresiones textuales
--	Procesa las directivas (``#include``, #define, #ifndef, ...)
+-	Procesa las directivas (``#include``, ``#define``, ``#ifndef``, ...)
 -	Elimina los comentarios.
 
-**Directivas #ifdef #endif #ifndef**
+**Directivas ``#ifdef #endif #ifndef``**
 
-- Con #ifdef si la macro está definida, entonces hace lo siguiente hasta encontrar un #endif
-- #ifndef pregunta si no está definida
+- Con ``#ifdef`` si la macro está definida, entonces hace lo siguiente hasta encontrar un ``#endif``
+- ``#ifndef`` pregunta si no está definida
 
 **Directiva #include**
 
