@@ -391,7 +391,7 @@ They all begin with two periods and whitespace, the "explicit markup start".
 |                                                               |                                                             |
 |   For instance:                                               |   For instance:                                             |
 |                                                               |                                                             |
-|   .. image:: magnetic-balls.jpg                               |   .. image:: images\cheatsheet\magnetic-balls.jpg           |
+|   .. image:: magnetic-balls.jpg                               |   .. image:: magnetic-balls.jpg                             |
 |      :width: 40pt                                             |      :width: 40pt                                           |
 |                                                               |                                                             |
 +---------------------------------------------------------------+-------------------------------------------------------------+
@@ -405,7 +405,7 @@ They all begin with two periods and whitespace, the "explicit markup start".
 |   The |biohazard| symbol must be used on containers used to   |   The |biohazard| symbol must be used on containers used to |
 |   dispose of medical waste.                                   |   dispose of medical waste.                                 |
 |                                                               |                                                             |
-|   .. |biohazard| image:: biohazard.png                        |   .. |biohazard| image:: images\cheatsheet\biohazard.png    |
+|   .. |biohazard| image:: biohazard.png                        |   .. |biohazard| image:: biohazard.png                      |
 |      :align: middle                                           |      :align: middle                                         |
 |      :width: 12                                               |      :width: 12                                             |
 +---------------------------------------------------------------+-------------------------------------------------------------+
@@ -456,15 +456,15 @@ Credits
     | |copy| :small:`2009 Roberto Alsina <ralsina@netmanagers.com.ar>  /  Creative Commons Attribution-Noncommercial-Share Alike 2.5 Argentina License`     | |attrib| :small:`Based on quickref.txt from docutils`               | |noncomm| :small:`Non-Commercial`| |sharealike| :small:`Share Alike` |
     +-------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+----------------------------------+-----------------------------------+
 
-.. |attrib| image:: images\cheatsheet\attrib.png
+.. |attrib| image:: attrib.png
    :width: 8pt
    :align: middle
 
-.. |noncomm| image:: images\cheatsheet\noncomm.png
+.. |noncomm| image:: noncomm.png
    :width: 8pt
    :align: middle
 
-.. |sharealike| image:: images\cheatsheet\sharealike.png
+.. |sharealike| image:: sharealike.png
    :width: 8pt
    :align: middle
 
