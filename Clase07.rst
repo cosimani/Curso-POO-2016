@@ -5,8 +5,7 @@
 Clase 07 - POO 2016
 ===================
 
-Dato de color
-^^^^^^^^^^^^^
+**Dato de color**
 
 **CamelCase**: Es escribir con la forma de jorobas de camello con las mayúsculas y minúsculas. 
 
