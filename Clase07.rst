@@ -79,16 +79,16 @@ Web Service
 - Generalmente a través del protocolo HTTP
 - La info puede viajar en XML, JSON, etc.
 - Fomenta y facilita el uso y desarrollo de APIs Web
-- <https://es.wikipedia.org/wiki/Servicio_web>`_
+- https://es.wikipedia.org/wiki/Servicio_web
 
 **Algunas APIs disponibles**
 
-- Twitter - <https://dev.twitter.com>`_
-- Facebook - <https://developers.facebook.com>`_
-- Amazon - <https://developer.amazonservices.es>`_
-- Spotify - <https://developer.spotify.com/web-api/>`_
-- MercadoLibre - <http://developers.mercadolibre.com/>`_
-- Google - <https://developers.google.com>`_
+- Twitter - https://dev.twitter.com
+- Facebook - https://developers.facebook.com
+- Amazon - https://developer.amazonservices.es
+- Spotify - https://developer.spotify.com/web-api
+- MercadoLibre - http://developers.mercadolibre.com
+- Google - https://developers.google.com
 	- Youtube
 	- Traductor
 	- Google+
@@ -99,9 +99,9 @@ Web Service
 **Google Maps**
 
 - URL para su uso: https://developers.google.com/maps/documentation/staticmaps
-- Ejemplo: <http://maps.googleapis.com/maps/api/staticmap?center=rondeau+100+cordoba&zoom=15&size=500x300&maptype=roadmap&sensor=false>`_
-- Descripción de los parámetros en: <https://developers.google.com/maps/documentation/staticmaps/#URL_Parameters>`_
-- Pueden habilitar otros servicios en <https://code.google.com/apis/console>`_
+- Ejemplo: http://maps.googleapis.com/maps/api/staticmap?center=rondeau+100+cordoba&zoom=15&size=500x300&maptype=roadmap&sensor=false
+- Descripción de los parámetros en: https://developers.google.com/maps/documentation/staticmaps/#URL_Parameters
+- Pueden habilitar otros servicios en https://code.google.com/apis/console
 
 **QUrl**
 
@@ -177,26 +177,6 @@ Dibujar a mano sobre un QWidget
 - Dibujar además un cuadrado que envuelva la imagen (como muestra el ejemplo).
 - La ventana puede tener cualquier tamaño pero llevará por título "Ventana".
 
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-**Ejercicio:**
-
-- Al ejercicio anterior agregar un nuevo QWidget en la clase NuevoUsuario que aparezca luego de hacer clic en Aceptar del Formulario.
-- Este nuevo QWidget deberá tener 3 QLabels que muestren Legajo, Nombre y Apellido.
-- Estos QLabels deberán ser parte del layout de un QGroupBox.
 
 
 
