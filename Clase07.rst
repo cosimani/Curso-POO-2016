@@ -115,8 +115,8 @@ Web Service
 	// El método host() devuelve www.yahoo.com.ar
 	
 	QUrl url("http://www.yahoo.com.ar/documento/info.html");
-    qDebug() << url.host();
-    qDebug() << url.path();
+	qDebug() << url.host();
+	qDebug() << url.path();
 	
 Dibujar a mano sobre un QWidget
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
