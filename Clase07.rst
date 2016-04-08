@@ -18,7 +18,7 @@ El preprocesador
 -	Analiza el archivo fuente antes de la compilación real
 -	Realiza las sustituciones de macros
 -	Una macro es un patrón de sustitución formado por expresiones textuales
--	Procesa las directivas (#include, #define, #ifndef, ...)
+-	Procesa las directivas (''#include'', #define, #ifndef, ...)
 -	Elimina los comentarios.
 
 **Directivas #ifdef #endif #ifndef**
