@@ -21,7 +21,7 @@ El preprocesador
 -	Procesa las directivas (``#include``, ``#define``, ``#ifndef``, ...)
 -	Elimina los comentarios.
 
-**Directivas ``#ifdef #endif #ifndef``**
+**Directivas #ifdef #endif #ifndef**
 
 - Con ``#ifdef`` si la macro está definida, entonces hace lo siguiente hasta encontrar un ``#endif``
 - ``#ifndef`` pregunta si no está definida
@@ -55,7 +55,7 @@ El preprocesador
 
 - Nuevo proyecto Empty 
 - Crear un .h vacío y definir una clase Persona con int edad y string nombre.
-- En el archivo main.cpp incluir dos veces el archivo .h
+- En el archivo ``main.cpp`` incluir dos veces el archivo .h
 - Tratar de resolver el problema sólo modificando el .h
 
 
@@ -149,7 +149,7 @@ Dibujar a mano sobre un QWidget
 **Clase QPainter**
 
 - Pinta a bajo nivel sobre widgets.
-- Debe ser utilizado dentro del método paintEvent(QPaintEvent*).
+- Debe ser utilizado dentro del método ``paintEvent(QPaintEvent*)``.
 
 .. code-block:: c
 
