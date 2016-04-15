@@ -5,6 +5,8 @@
 Clase 09 - POO 2016
 ===================
 
+.. figure:: images/clase09/java_vs_cplusplus.gif 
+
 Clase QWebView
 ^^^^^^^^^^^^^^
 
