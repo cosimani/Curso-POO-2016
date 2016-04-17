@@ -74,8 +74,7 @@ You can
 |locationlink|_
 
 .. |locationlink| raw:: html
-
-   <a href="http://geoiptool.com" target="_blank">check your location here</a>
+.. _locationlink: <a href="http://geoiptool.com" target="_blank">check your location here</a>
 	
 Funciones virtuales
 ^^^^^^^^^^^^^^^^^^^
