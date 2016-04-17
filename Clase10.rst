@@ -5,8 +5,7 @@
 Clase 10 - POO 2016
 ===================
 
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/UFfZlUgfQ6U/0.jpg)](http://www.youtube.com/watch?v=UFfZlUgfQ6U)
-
+ [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/UFfZlUgfQ6U/0.jpg)](http://www.youtube.com/watch?v=UFfZlUgfQ6U)
 
 Polimorfismo
 ^^^^^^^^^^^^
