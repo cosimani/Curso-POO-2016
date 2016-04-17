@@ -71,10 +71,10 @@ Polimorfismo
 
 You can 
 
-|locationlink|_
+|LocationLink|_
 
-.. |locationlink| raw:: html
-.. _locationlink: <a href="http://geoiptool.com" target="_blank">check your location here</a>
+.. |LocationLink| raw:: html
+.. _LocationLink: <a href="http://geoiptool.com" target="_blank">check your location here</a>
 	
 Funciones virtuales
 ^^^^^^^^^^^^^^^^^^^
