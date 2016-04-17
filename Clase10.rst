@@ -71,6 +71,8 @@ Polimorfismo
 
 You can 
 
+[link](https://www.youtube.com/watch?v=6lIGfzZ4oqo){:target="_blank"}
+
 |location_link|_
 
 .. |location_link| raw:: html
