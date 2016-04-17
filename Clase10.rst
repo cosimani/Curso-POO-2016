@@ -60,7 +60,11 @@ Polimorfismo
 	    return a.exec();
 	}
 	
-Para todo hay un mexicano que también lo explica |ImageLink|_
+**Para todo hay un mexicano que también lo explica** 
+
+- Clic sobre el GIF para abrir video 
+
+|ImageLink|_
 
 .. |ImageLink| image:: /images/clase10/explicacion_mexicana.gif
 .. _ImageLink: https://www.youtube.com/watch?v=6lIGfzZ4oqo
