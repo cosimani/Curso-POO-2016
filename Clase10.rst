@@ -68,6 +68,12 @@ Polimorfismo
 
 .. |ImageLink| image:: /images/clase10/explicacion_mexicana.gif
 .. _ImageLink: https://www.youtube.com/watch?v=6lIGfzZ4oqo
+
+You can |location_link|.
+
+.. |location_link| raw:: html
+
+   <a href="http://geoiptool.com" target="_blank">check your location here</a>
 	
 Funciones virtuales
 ^^^^^^^^^^^^^^^^^^^
