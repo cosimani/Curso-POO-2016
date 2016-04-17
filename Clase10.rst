@@ -69,7 +69,7 @@ Polimorfismo
 .. |ImageLink| image:: /images/clase10/explicacion_mexicana.gif
 .. _ImageLink: https://www.youtube.com/watch?v=6lIGfzZ4oqo
 
-You can |location_link|.
+You can |location_link|_
 
 .. |location_link| raw:: html
 
