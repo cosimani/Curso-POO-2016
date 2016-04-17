@@ -9,6 +9,10 @@ Clase 10 - POO 2016
 
 [![Demo Doccou alpha](http://share.gifyoutube.com/KzB6Gb.gif)](https://www.youtube.com/watch?v=ek1j272iAmc)
 
+Click on my |ImageLink|_
+
+.. |ImageLink| image:: http://share.gifyoutube.com/KzB6Gb.gif
+.. _ImageLink: https://www.youtube.com/watch?v=ek1j272iAmc
 
 Polimorfismo
 ^^^^^^^^^^^^
