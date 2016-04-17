@@ -71,11 +71,9 @@ Polimorfismo
 
 You can 
 
-[link](https://www.youtube.com/watch?v=6lIGfzZ4oqo){:target="_blank"}
+|locationlink|_
 
-|location_link|_
-
-.. |location_link| raw:: html
+.. |locationlink| raw:: html
 
    <a href="http://geoiptool.com" target="_blank">check your location here</a>
 	
