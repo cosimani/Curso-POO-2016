@@ -5,15 +5,6 @@
 Clase 10 - POO 2016
 ===================
 
- ## Demo
-
-[![Demo Doccou alpha](http://share.gifyoutube.com/KzB6Gb.gif)](https://www.youtube.com/watch?v=ek1j272iAmc)
-
-Click on my |ImageLink|_
-
-.. |ImageLink| image:: http://share.gifyoutube.com/KzB6Gb.gif
-.. _ImageLink: https://www.youtube.com/watch?v=ek1j272iAmc
-
 Polimorfismo
 ^^^^^^^^^^^^
 
@@ -68,7 +59,12 @@ Polimorfismo
 
 	    return a.exec();
 	}
+	
+Para todo hay un mexicano que también lo explica |ImageLink|_
 
+.. |ImageLink| image:: /images/clase10/explicacion_mexicana.gif
+.. _ImageLink: https://www.youtube.com/watch?v=6lIGfzZ4oqo
+	
 Funciones virtuales
 ^^^^^^^^^^^^^^^^^^^
 
