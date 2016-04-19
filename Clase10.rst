@@ -197,14 +197,19 @@ Un par de memes para recordar que se viene el examen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: images/clase10/meme1.jpg
+   :width: 40pt
 
 .. figure:: images/clase10/meme2.jpg
+   :width: 40pt
 
 .. figure:: images/clase10/meme3.jpg
+   :width: 40pt
 
 .. figure:: images/clase10/meme4.jpg
+   :width: 40pt
 
 .. figure:: images/clase10/meme5.jpg
+   :width: 40pt
 
 
 
