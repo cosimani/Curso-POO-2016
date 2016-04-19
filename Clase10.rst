@@ -51,7 +51,7 @@ Polimorfismo
 
 	    qDebug() << carlos->verNombre();
 	    qDebug() << jose->verNombre();
-	    //  carlos->mostrarAlgo();  // No compila. mostrarAlgo() no es de Persona
+	    carlos->mostrarAlgo();  // Esta línea compila? 
 
 	    delete jose;
 	    delete carlos;
