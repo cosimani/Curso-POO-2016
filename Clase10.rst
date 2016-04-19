@@ -103,7 +103,7 @@ Funciones virtuales
 	    {
 	    Persona *carlos = new Empleado("Carlos");
 
-	    qDebug() << carlos->verNombre();
+	    qDebug() << carlos->verNombre();  // Qué publica?
 
 	    delete carlos;
 	    }
