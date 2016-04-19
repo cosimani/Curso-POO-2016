@@ -169,6 +169,29 @@ Ejercitación para primer parcial
 	- Dibujar además un cuadrado que envuelva la imagen (como muestra el ejemplo).
 	- La ventana puede tener cualquier tamaño y llevará por título "Ventana".
 
+Métodos virtuales de QWidget para capturar eventos
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Algunos de ellos:
+
+.. code-block:: c
+
+	virtual void mouseDoubleClickEvent(QMouseEvent* event)
+	virtual void mouseMoveEvent(QMouseEvent* event)
+	virtual void mousePressEvent(QMouseEvent* event)
+	virtual void keyPressEvent(QKeyEvent* event)
+	virtual void resizeEvent(QResizeEvent* event)
+	virtual void moveEvent(QMoveEvent* event)
+	virtual void closeEvent(QCloseEvent* event)
+
+- Estos métodos pueden ser reimplementados en una clase derivada para recibir los eventos.
+
+**Ejercicio:** Al ingresar la URL de una imagen deberá mostrarla como en la figura
+
+.. figure:: images/clase10/imagenes.png  
+ 
+- Al hacer clic sobre una de estas imágenes, deberá ocultarse la misma. 
+- Cuando se oculta la segunda imagen, cerrar la aplicación.
 
 
 
