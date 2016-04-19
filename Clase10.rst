@@ -80,7 +80,7 @@ Funciones virtuales
 	class Persona  {
 	public:
 	    Persona(QString nombre) : nombre(nombre)  {  }
-	    virtual QString verNombre()  {  return "Persona: " + nombre;  }
+	    virtual QString verNombre()  {  return "Persona: " + nombre;  }  // Y si no fuera virtual?
 
 	protected:  
 	    QString nombre;
