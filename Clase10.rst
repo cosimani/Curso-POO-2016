@@ -193,6 +193,21 @@ Métodos virtuales de QWidget para capturar eventos
 - Al hacer clic sobre una de estas imágenes, deberá ocultarse la misma. 
 - Cuando se oculta la segunda imagen, cerrar la aplicación.
 
+Un par de memes para recordar que se viene el examen
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: images/clase10/meme1.jpg
+
+.. figure:: images/clase10/meme2.jpg
+
+.. figure:: images/clase10/meme3.jpg
+
+.. figure:: images/clase10/meme4.jpg
+
+.. figure:: images/clase10/meme5.jpg
+
+
+
 
 
 
