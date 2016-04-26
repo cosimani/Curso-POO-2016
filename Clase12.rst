@@ -21,21 +21,21 @@ Clase 12 - POO 2016
 |ImageLink2|_ 
 
 .. |ImageLink2| image:: /images/clase12/crearTabla.gif
-.. ImageLink2: https://www.youtube.com/watch?v=_-hKca2k784
+.. _ImageLink2: https://www.youtube.com/watch?v=_-hKca2k784
 
 **Insertar registro**
 
 |ImageLink3|_ 
 
 .. |ImageLink3| image:: /images/clase12/insertarRegistro.gif
-.. ImageLink3: https://www.youtube.com/watch?v=RggFhFZnCPU
+.. _ImageLink3: https://www.youtube.com/watch?v=RggFhFZnCPU
 
 **Consultar datos**
 
 |ImageLink4|_ 
 
 .. |ImageLink4| image:: /images/clase12/consultarDatos.gif
-.. ImageLink4: https://www.youtube.com/watch?v=8emd37mvN2E
+.. _ImageLink4: https://www.youtube.com/watch?v=8emd37mvN2E
 
 Clase QCryptographicHash
 ^^^^^^^^^^^^^^^^^^^^^^^^
