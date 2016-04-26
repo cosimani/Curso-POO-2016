@@ -75,6 +75,10 @@ Clase QCryptographicHash
 .. code-block:: c
 
 	QcryptographicHash::hash(leClave->text().toUtf8(), QCryptographicHash::Md5).toHex()
+	
+**Calculadora MD5 online**
+
+http://md5calculator.chromefans.org/?langid=es
 
 Registrar eventos (logs)
 ^^^^^^^^^^^^^^^^^^^^^^^^
