@@ -9,7 +9,9 @@ Clase 12 - POO 2016
 
 - Clic sobre los GIF para abrir los videos 
 
-|ImageLink|_
+**Crear base de datos**
+
+|ImageLink|_ 
 
 .. |ImageLink| image:: /images/clase12/crearBase.gif
 .. _ImageLink: https://www.youtube.com/watch?v=U9iE6pM0bxM
