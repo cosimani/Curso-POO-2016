@@ -166,7 +166,7 @@ Registrar eventos (logs)
 	            qDebug() << "La consulta no trajo registros";
 
 	        while(query.next())  {
-	            QSqlRecord registro = query.record();  // Devuelve un objeto que maneja un registro (una linea, un row)
+	            QSqlRecord registro = query.record();  // Devuelve un objeto que maneja un registro (linea, row)
 	            int campos = registro.count();  // Devuleve la cantidad de campos de este registro
 
 	            QString informacion;  // En este QString se va armando la cadena para mostrar cada registro
