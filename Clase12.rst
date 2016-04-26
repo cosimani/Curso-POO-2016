@@ -5,6 +5,19 @@
 Clase 12 - POO 2016
 ===================
 
+**Algunos argentinos que también explican como los mexicanos** 
+
+- Clic sobre los GIF para abrir los videos 
+
+|ImageLink|_
+
+.. |ImageLink| image:: /images/clase12/crearBase.gif
+.. _ImageLink: https://www.youtube.com/watch?v=U9iE6pM0bxM
+
+
+
+
+
 Clase QCryptographicHash
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
