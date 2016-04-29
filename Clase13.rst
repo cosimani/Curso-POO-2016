@@ -15,7 +15,7 @@ Función virtual pura y clase abstracta
 
 	virtual void verValor(int a) = 0;
 
-- No es muy elegante igualar a cero una función:
+- Algunos pueden decir que no es muy elegante igualar a cero una función:
 
 .. code-block:: c
 
