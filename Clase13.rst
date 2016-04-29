@@ -111,7 +111,7 @@ API de Google Street
 	- location - Texto (universidad blas pascal) o lat./long. (40.457375,-80.009353)
 	- sensor - Si el dispositivo dispone de GPS "true" o "false"
 
-- Ejemplo: http://maps.googleapis.com/maps/api/streetview?size=400x400&location=universidad%20blas%20pascal&sensor=false
+- Ejemplo: http://maps.googleapis.com/maps/api/streetview?size=400x400&location=donato%20alvarez%20380&sensor=false
 
 - Opcionales:
 	- heading - Rotación entre 0 y 360 (heading=45)
