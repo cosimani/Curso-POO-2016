@@ -116,7 +116,7 @@ API de Google Street
 
 - Opcionales:
 	- heading - Rotación entre 0 y 360 (heading=45)
-	- fov - zoom (aprox. entre 10 y 120 - valor predeterminado 90)
+	- fov (field of view) - zoom (aprox. entre 10 y 120 - valor predeterminado 90)
 	- pitch - Ángulo de inclinación (predeterminado 0 - entre -90 y 90)
 	- key: Clave de API (ver https://code.google.com/apis/console)
 
