@@ -120,7 +120,7 @@ API de Google Street
 	- pitch - Ángulo de inclinación (predeterminado 0 - entre -90 y 90)
 	- key: Clave de API (ver https://code.google.com/apis/console)
 
-**Ejercicio 1:**
+**Ejercicio:**
 
 - Con la misma idea que la clase Mapa, hacer ahora la clase ``StreetView``. En un QLineEdit ingresar el domicilio a buscar.
 - Con sólo movimientos del mouse horizontales, girar la rotación entre 0 y 360.
