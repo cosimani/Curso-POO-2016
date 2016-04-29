@@ -100,8 +100,9 @@ API de Google Street
 - Permite descargar una vista
 - Puede utilizarse con una clave de API para la aplicación
 	- Acceder a https://code.google.com/apis/console y loguearse
-	- APIs & auth - Street View Image API
-	- Presionar un botón para activar el servicio
+	- Administración de las API - Google Street View Image API
+	- Habilitar el servicio
+	- Credenciales - Crear credenciales - Clave de Servidor o Clave de navegador
 
 - Parámetros de la URL:
 	- https://developers.google.com/maps/documentation/streetview
