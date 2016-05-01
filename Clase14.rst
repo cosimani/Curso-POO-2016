@@ -19,7 +19,9 @@ Creando Instalador
 
 .. figure:: images/clase14/CrearInstalador.gif
 
+**Ejecutable del ejercicio de arrastrar y soltar la imagen**
 
+- `Descargar Instalador de MouseMove <https://drive.google.com/file/d/0B3bNJFNPgLHnc3ota21TVVBKb0k/view?usp=sharing>`_
 
 
 
