@@ -120,6 +120,17 @@ Uso de Qt Designer
 	    delete ui;
 	}
 
+**Ejercicio:**
+
+- Usar QtDesigner
+- Definir la clase Ventana que herede de QWidget
+- Buscar una imagen de un fútbol con formato PNG (para usar transparencias).
+- Ventana tendrá un formulario que pide al usuario:
+	- Diámetro del fútbol (píxeles):
+	- Velocidad (mseg para ir de lado a lado):
+	- QPushButton para actualizar el estado.
+- El fútbol irá golpeando de izquierda a derecha en Ventana.
+
 
 
 
