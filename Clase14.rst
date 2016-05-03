@@ -72,6 +72,8 @@ Uso de Qt Designer
 - Utilizar el puntero ``ui`` para acceder a los objetos del diseño
 - Tener en cuenta que los métodos virtuales de QWidget para eventos se pueden usar:
 
+.. code-block:: c	
+
 	virtual void mousePressEvent(QMouseEvent* event)
 	virtual void resizeEvent(QResizeEvent* event)
 	virtual void moveEvent(QMoveEvent* event)
