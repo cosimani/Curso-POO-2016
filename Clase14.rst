@@ -54,9 +54,16 @@ API de Google Street
 
 **Ejercicio:**
 
-- Con la misma idea que la clase Mapa, hacer ahora la clase ``StreetView``. En un QLineEdit ingresar el domicilio a buscar.
+- Con la misma idea que la clase Mapa, hacer ahora la clase ``StreetView``. 
+- En un QLineEdit ingresar el domicilio a buscar.
 - Con sólo movimientos del mouse horizontales, girar la rotación entre 0 y 360.
 
+**Ejercicio:** Agregar a ``StreetView`` lo siguiente:
+
+- Agregar un QSlider para controlar el zoom.
+- Además del QSlider, controla el zoom con dobleclic derecho para aumentarlo y con el izquierdo para disminuirlo.
+- Actualizar también la posición del QSlider luego de los dobleclics.
+- Almacenar todas las direcciones buscadas en la tabla ``logs`` de la base de datos
 
 
 
