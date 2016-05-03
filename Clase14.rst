@@ -21,7 +21,7 @@ Creando Instalador
 
 **Ejecutable del ejercicio de arrastrar y soltar la imagen**
 
-- `Descargar Instalador de MouseMove <https://drive.google.com/file/d/0B3bNJFNPgLHnc3ota21TVVBKb0k/view?usp=sharing>`_
+- `Descargar Instalador de MouseMove (Windows 7 o superior - 64 bits) <https://drive.google.com/file/d/0B3bNJFNPgLHnc3ota21TVVBKb0k/view?usp=sharing>`_
 
 
 
