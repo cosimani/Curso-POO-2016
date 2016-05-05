@@ -121,5 +121,74 @@ const en clases
 	        x = x + i;  // Compila?
 	    }
 	};
+	
+Señales propias
+^^^^^^^^^^^^^^^
+
+- Si necesitamos enviar una señal se utiliza la palabra reservada emit.
+
+.. code-block:: c	
+
+	int i = 5;
+	emit enviarEntero(i);
+
+- La función enviarEntero(int a) debe estar declarada con el modificador de acceso signals
+- No olvidarse de la macro Q_OBJECT para permitir a esta clase usar signals y slots.
+- Las signals deben ser compatibles en sus parámetros con los slots a los cuales se conecten.
+- Solamente se declara esta función (Qt se encarga de definirla).
+
+Clase QFile
+^^^^^^^^^^^
+
+- Permite leer y escribir en archivos. 
+- Puede ser utilizado además con QTextStream o QDataStream.
+
+.. code-block:: c	
+
+	QFile(const QString & name)
+	viod setFile(const QString & name)
+
+- Existe un archivo? y lo eliminamos.
+
+.. code-block:: c	
+
+	bool exists() const
+	bool remove()
+
+- Lectura de un archivo línea por línea:
+
+.. code-block:: c	
+
+	QFile file("c:/in.txt");
+	    if ( !file.open (QIODevice::ReadOnly | QIODevice::Text) )
+	        return;
+
+	    while ( !file.atEnd() )  {
+	     QByteArray linea = file.readLine();
+	     qDebug() << linea;
+	 }
+
+Clase QFileDialog
+^^^^^^^^^^^^^^^^^
+
+- Permite abrir un cuadro de diálogo para buscar un archivo en disco
+
+.. code-block:: c	
+
+	QString file = QFileDialog::getOpenFileName(this, "Abrir", "./", "Imagen (*.png *.jpg)");
+
+**Ejercicio:**
+
+- Elegir un archivo de imagen del disco y dibujarlo en un QWidget.
+- En el momento de redibujar, sólo dibujar el área de la imagen.
+Ejercicio 2
+- Elegir un archivo de texto cualquiera y mostrarlo sobre un QTextEdit.
+- Agregar un QLineEdit que permita buscar una cadena.
+- Mostrar en un QLabel la cantidad que fueron encontradas.
+
+
+
+
+
 
 
