@@ -137,7 +137,7 @@ Señales propias
 .. code-block:: c	
 
 	signals:
-	    void signal_signal_enviarEntero(int);
+	    void signal_enviarEntero(int);
 
 - No olvidarse de la macro Q_OBJECT para permitir a esta clase usar signals y slots.
 - Las signals deben ser compatibles en sus parámetros con los slots a los cuales se conecten.
