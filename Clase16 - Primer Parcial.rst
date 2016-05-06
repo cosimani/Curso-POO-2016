@@ -7,6 +7,8 @@ Clase 16 - Primer Parcial
 
 .. figure:: images/clase16/imagenes-para-reirse-en-los-examenes.jpg
 
+****
+
 .. figure:: images/clase16/yeah.gif
 
 
