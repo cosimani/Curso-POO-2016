@@ -11,5 +11,5 @@ Clase 16 - Primer Parcial
 
 .. figure:: images/clase16/yeah.gif
 
-
+****
 
