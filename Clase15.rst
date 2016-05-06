@@ -125,7 +125,7 @@ const en clases
 Señales propias
 ^^^^^^^^^^^^^^^
 
-- Si necesitamos enviar una señal se utiliza la palabra reservada emit.
+- Si necesitamos enviar una señal se utiliza la palabra reservada ``emit``.
 
 .. code-block:: c	
 
