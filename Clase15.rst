@@ -160,13 +160,13 @@ Clase QFile
 .. code-block:: c	
 
 	QFile file("c:/in.txt");
-	    if ( !file.open (QIODevice::ReadOnly | QIODevice::Text) )
-	        return;
+	if ( !file.open (QIODevice::ReadOnly | QIODevice::Text) )
+	    return;
 
-	    while ( !file.atEnd() )  {
-	     QByteArray linea = file.readLine();
-	     qDebug() << linea;
-	 }
+	while ( !file.atEnd() )  {
+	    QByteArray linea = file.readLine();
+	    qDebug() << linea;
+	}
 
 Clase QFileDialog
 ^^^^^^^^^^^^^^^^^
