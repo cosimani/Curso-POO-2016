@@ -179,12 +179,14 @@ Clase QFileDialog
 
 **Ejercicio:**
 
-- Elegir un archivo de imagen del disco y dibujarlo en un QWidget.
-- En el momento de redibujar, sólo dibujar el área de la imagen.
-Ejercicio 2
-- Elegir un archivo de texto cualquiera y mostrarlo sobre un QTextEdit.
-- Agregar un QLineEdit que permita buscar una cadena.
-- Mostrar en un QLabel la cantidad que fueron encontradas.
+- Elegir un archivo de imagen del disco con ``QFileDialog`` y dibujarlo en un ``QWidget``.
+- Agregar un botón "Iniciar rotación" que genere la rotación de la imagen sobre su centro.
+
+**Ejercicio:**
+
+- Elegir un archivo de texto cualquiera con ``QFileDialog`` y mostrarlo sobre un ``QTextEdit``.
+- Agregar dos ``QLineEdit``, uno acompañado con el ``QLabel`` "Buscar" y otro con el "Reemplazar por".
+- Un botón "Reemplazar" realizará la busqueda reemplazará todas las coincidencias encontradas.
 
 
 
