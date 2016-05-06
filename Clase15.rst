@@ -188,6 +188,11 @@ Clase QFileDialog
 - Agregar dos ``QLineEdit``, uno acompañado con el ``QLabel`` "Buscar" y otro con el "Reemplazar por".
 - Un botón "Reemplazar" realizará la busqueda reemplazará todas las coincidencias encontradas.
 
+**Ejercicio:**
+
+- En el ejercicio anterior emitir la señal ``signal_reemplazosFinalizados(int cantidad)`` al finalizar la acción.
+- ``int cantidad`` indicará la cantidad de reemplazos realizados, incluyendo el cero si no hubo reemplazos.
+- Conectar esta señal con algún slot cualquiera para probar su funcionamiento.
 
 
 
