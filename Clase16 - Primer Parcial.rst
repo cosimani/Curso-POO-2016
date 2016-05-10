@@ -13,3 +13,15 @@ Clase 16 - Primer Parcial
 
 ****
 
+Aplicación para replicar en Primer Parcial
+..........................................
+
+Usuario válido: cgomez:123456
+
+- `Ejecutable (Windows 7 o superior - 64 bits) <https://drive.google.com/file/d/0B3bNJFNPgLHnTVd6SGl2cERReWc/view?usp=sharing>`_
+
+- `Ejecutable (Linux - 64 bits) <https://drive.google.com/file/d/0B3bNJFNPgLHneUhiQmNjTFdldkU/view?usp=sharing>`_
+
+
+
+
