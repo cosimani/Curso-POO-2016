@@ -15,14 +15,14 @@ Señales propias
 	int i = 5;
 	emit signal_enviarEntero(i);
 
-- La función enviarEntero(int a) debe estar declarada con el modificador de acceso ``signals``
+- La función ``enviarEntero(int a)`` debe estar declarada con el modificador de acceso ``signals``
 
 .. code-block:: c	
 
 	signals:
 	    void signal_enviarEntero(int);
 
-- No olvidarse de la macro Q_OBJECT para permitir a esta clase usar signals y slots.
+- No olvidarse de la macro ``Q_OBJECT`` para permitir a esta clase usar signals y slots.
 - Las signals deben ser compatibles en sus parámetros con los slots a los cuales se conecten.
 - Solamente se declara esta función (Qt se encarga de definirla).
 
@@ -30,7 +30,7 @@ Clase QFile
 ^^^^^^^^^^^
 
 - Permite leer y escribir en archivos. 
-- Puede ser utilizado además con QTextStream o QDataStream.
+- Puede ser utilizado además con ``QTextStream`` o ``QDataStream``.
 
 .. code-block:: c	
 
