@@ -121,58 +121,6 @@ const en clases
 	        x = x + i;  // Compila?
 	    }
 	};
-	
-Señales propias
-^^^^^^^^^^^^^^^
-
-- Si necesitamos enviar una señal se utiliza la palabra reservada ``emit``.
-
-.. code-block:: c	
-
-	int i = 5;
-	emit signal_enviarEntero(i);
-
-- La función enviarEntero(int a) debe estar declarada con el modificador de acceso ``signals``
-
-.. code-block:: c	
-
-	signals:
-	    void signal_enviarEntero(int);
-
-- No olvidarse de la macro Q_OBJECT para permitir a esta clase usar signals y slots.
-- Las signals deben ser compatibles en sus parámetros con los slots a los cuales se conecten.
-- Solamente se declara esta función (Qt se encarga de definirla).
-
-Clase QFile
-^^^^^^^^^^^
-
-- Permite leer y escribir en archivos. 
-- Puede ser utilizado además con QTextStream o QDataStream.
-
-.. code-block:: c	
-
-	QFile(const QString & name)
-	viod setFile(const QString & name)
-
-- Existe un archivo? y lo eliminamos.
-
-.. code-block:: c	
-
-	bool exists() const
-	bool remove()
-
-- Lectura de un archivo línea por línea:
-
-.. code-block:: c	
-
-	QFile file("c:/in.txt");
-	if ( !file.open (QIODevice::ReadOnly | QIODevice::Text) )
-	    return;
-
-	while ( !file.atEnd() )  {
-	    QByteArray linea = file.readLine();
-	    qDebug() << linea;
-	}
 
 Clase QFileDialog
 ^^^^^^^^^^^^^^^^^
@@ -187,20 +135,6 @@ Clase QFileDialog
 
 - Elegir un archivo de imagen del disco con ``QFileDialog`` y dibujarlo en un ``QWidget``.
 - Agregar un botón "Iniciar rotación" que genere la rotación de la imagen sobre su centro.
-
-**Ejercicio:**
-
-- Elegir un archivo de texto cualquiera con ``QFileDialog`` y mostrarlo sobre un ``QTextEdit``.
-- Agregar dos ``QLineEdit``, uno acompañado con el ``QLabel`` "Buscar" y otro con el "Reemplazar por".
-- Un botón "Reemplazar" realizará la busqueda reemplazará todas las coincidencias encontradas.
-
-**Ejercicio:**
-
-- En el ejercicio anterior emitir la señal ``signal_reemplazosFinalizados(int cantidad)`` al finalizar la acción.
-- ``int cantidad`` indicará la cantidad de reemplazos realizados, incluyendo el cero si no hubo reemplazos.
-- Conectar esta señal con algún slot cualquiera para probar su funcionamiento.
-
-
 
 
 
