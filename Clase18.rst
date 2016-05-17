@@ -96,8 +96,8 @@ Uso de una clase propia con QtDesigner
 	
 **Ejercicio:** 
 
-- Crear un login con una clase MiLabel que herede de QLabel y que funcione como un QPushButton
-- Para esto incorporar a MiLabel la señal ``void signal_clic()``
+- Crear un login con la clase TuLabel que herede de QLabel y que funcione como un QPushButton
+- Para esto incorporar a TuLabel la señal ``void signal_clic()``
 
 
 Herencia múltiple
