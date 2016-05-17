@@ -60,6 +60,40 @@ Clase QFile
 	- QPushButton para actualizar el estado.
 - El fútbol irá golpeando de izquierda a derecha en Ventana.
 
+Uso de una clase propia con QtDesigner
+======================================
+
+- Deben heredar de algún QWidget
+- Colocamos el widget (clase base) con QtDesigner
+- Clic derecho "Promote to"
+
+.. figure:: images/clase18/qtdesigner.png
+					 
+- Base class name: QLabel
+- Promoted class name: MiLabel
+- Header file: miLabel.h
+- Add (y con esto queda disponible para promover)
+- La clase MiLabel deberá heredar de QLabel
+- El constructor debe tener como parámetro:
+
+.. code-block::
+
+	MiLabel(QWidget *parent = 0);  // Esto en miLabel.h
+
+	MiLabel::MiLabel(QWidget *parent) : QLabel(parent)  {  // Esto en miLabel.cpp
+	
+	}
+
+**Ejercicio 4:**
+	- Definir la clase TuLabel que herede de QLabel
+	- Agregar un QLabel a la GUI y promoverlo a TuLabel
+	- Agregar un método void cambiarTexto(QString nuevoTexto)
+	- Usar ese método desde la clase Principal de la siguiente forma:
+
+.. code-block::
+
+	ui->tuLabel->cambiarTexto("Sos un TuLabel?");
+
 Herencia múltiple
 ^^^^^^^^^^^^^^^^^
 
