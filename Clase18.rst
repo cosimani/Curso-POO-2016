@@ -84,7 +84,7 @@ Uso de una clase propia con QtDesigner
 	
 	}
 
-**Ejercicio 4:**
+**Ejercicio:**
 	- Definir la clase TuLabel que herede de QLabel
 	- Agregar un QLabel a la GUI y promoverlo a TuLabel
 	- Agregar un método void cambiarTexto(QString nuevoTexto)
@@ -93,6 +93,12 @@ Uso de una clase propia con QtDesigner
 .. code-block::
 
 	ui->tuLabel->cambiarTexto("Sos un TuLabel?");
+	
+**Ejercicio:** 
+
+- Crear un login con una clase MiLabel que herede de QLabel y que funcione como un QPushButton
+- Para esto incorporar a MiLabel la señal ``void signal_clic()``
+
 
 Herencia múltiple
 ^^^^^^^^^^^^^^^^^
