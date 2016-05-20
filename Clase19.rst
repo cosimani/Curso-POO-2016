@@ -202,11 +202,22 @@ Dibujando primitivas
 Uso de la Clase QGLWidget
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
+- Se requiere lo siguiente en el .pro
+
+.. code-block:: c
+
+	QT += opengl
+
+	win32:LIBS += -lopengl32
+	win32:LIBS += -lglu32
+
 .. code-block:: c
 
 	#include <QGLWidget>
 
 	class MiOpenGL : public QGLWidget  {
+	    Q_OBJECT
+		
 	public:
 	    MiOpenGL();
 
@@ -215,6 +226,10 @@ Uso de la Clase QGLWidget
 	    void resizeGL(int w, int h);
 	    void paintGL();
 	};
+	
+	MiOpenGL::MiOpenGL()  {
+	
+	}
 
 	void MiOpenGL::initializeGL()  { 
 	    glClearColor(0,0,0,0);
