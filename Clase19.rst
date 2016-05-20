@@ -91,6 +91,7 @@ OpenGL
 - Compite con Direct3D de Microsoft
 
 **Para tener en cuenta**
+
 - Las funciones de OpenGL comienzan con ``gl`` y las constantes con ``GL_``
 - Existe un sufijo que indica la cantidad de parámetros y el tipo
 
