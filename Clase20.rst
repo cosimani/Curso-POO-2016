@@ -9,12 +9,34 @@ Rotación de la escena
 ^^^^^^^^^^^^^^^^^^^^^
 
 - Gira un ángulo en sentido contrario a las agujas del reloj.
-- Sobre el eje formado desde el origen hasta el punto (x, y, z)
+- Sobre el eje formado desde el origen hasta el punto (x, y, z).
 
 .. code-block:: c
 
+	// glRotatef(angulo, x, y, z); 
 	glRotatef(5, 0, 0, 1);  // gira 5° con respecto al eje z
 
+Traslación de la escena
+^^^^^^^^^^^^^^^^^^^^^^^
+
+- Desplaza el punto (0, 0, 0) a la nueva posición (x, y, z).
+
+.. code-block:: c
+
+	// glTranslatef(x, y, z);
+	glTranslatef(0, 0, 1);  // gira 5° con respecto al eje z
+
+Escalado de la escena
+^^^^^^^^^^^^^^^^^^^^^
+
+- Escala. Con valores mayores a 1, se amplía. Entre 0 y 1 se reduce.
+
+.. code-block:: c
+
+	// glScalef(x, y, z);
+	glScalef(1, 2, 1);  // escala el doble en vertical
+	
+	
 Objetos ocultos
 ^^^^^^^^^^^^^^^
 
