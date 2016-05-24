@@ -117,7 +117,7 @@ MiniExámenes
 - Se promediarán para la tercer nota de POO
 - Previstos: May 27 - May 31 - Jun 3 - Jun 7 - Jun 14
 - Tiempo: 30 minutos
-- Tema para el 27 de mayo: 
+- Temas para el 27 de mayo: 
 	- Login
 	- Validación contra base de datos
 	- Crear el GUI del login con QtDesigner
