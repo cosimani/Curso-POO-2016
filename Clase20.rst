@@ -125,6 +125,18 @@ MiniExámenes
 	- Registro de logs en base de datos
 	- Obtener fecha y hora del sistema
 
+Ejercitando con Emi Kohmann
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: images/clase20/presentacion.png
+	:target: resources/clase20/presentacion.pdf
+
+- `Esqueleto OpenGL <https://github.com/cosimani/Curso-POO-2016/blob/master/sources/clase20/poo_empty.rar?raw=true>`_
+
+**Ejercicio:**
+
+- Realizar el cierre convexo de los extremos de los rayos, para convertir los rayos en una rueda.
+- Realizar una matriz de ruedas cerradas, donde cada rueda gire hacia el sentido opuesto de las ruedas adyacentes.
 
 
 
