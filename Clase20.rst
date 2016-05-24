@@ -24,7 +24,7 @@ Traslación de la escena
 .. code-block:: c
 
 	// glTranslatef(x, y, z);
-	glTranslatef(0, 0, 1);  // gira 5° con respecto al eje z
+	glTranslatef(2, 0, 0);  // Desplaza 2 unidades en el eje x
 
 Escalado de la escena
 ^^^^^^^^^^^^^^^^^^^^^
