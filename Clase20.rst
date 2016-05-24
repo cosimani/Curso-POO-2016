@@ -128,7 +128,7 @@ MiniExámenes
 Ejercitando con Emi Kohmann
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: images/clase20/presentacion1.png
+.. figure:: images/clase20/presentacion.png
 	:target: resources/clase20/presentacion.pdf
 
 - `Esqueleto OpenGL <https://github.com/cosimani/Curso-POO-2016/blob/master/sources/clase20/poo_empty.rar?raw=true>`_
