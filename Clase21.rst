@@ -24,19 +24,6 @@ Modelo de sombreado
 	    glVertex3f(0.3f, 1.0f, 0.0f);
 	glEnd();
 
-**Ejercicio:**
-
-- Marcar 4 puntos en la escena donde se haga clic con el mouse.
-- Ni bien se marque el 4to, automáticamente se generará el polígono de 4 vértices.
-- Con la tecla C se puede cambiar entre distintos colores de relleno
-- Con A y D se rota sobre el eje Y
-- Con W y S se rota sobre el eje X
-
-**Ejercicio:**
-
-- Dibujar un triángulo dentro del campo de visión de la escena.
-- Active un temporizador (100 ms) para que gire 3° el triángulo sobre el eje z.
-
 **Transformación de viewport (o vista)**
 
 - Análogamente con una cámara de fotos, es el tamaño de la fotografía.
@@ -118,7 +105,20 @@ Modelo de sombreado
 	               GLdouble haciaX, GLdouble haciaY, GLdouble haciaZ, 
 	               GLdouble upX, GLdouble upY, GLdouble upZ)
 				   
-.. figure:: images/clase21/lookat.png			
+.. figure:: images/clase21/lookat.png		
+
+**Ejercicio:**
+
+- Marcar 4 puntos en la escena donde se haga clic con el mouse.
+- Ni bien se marque el 4to, automáticamente se generará el polígono de 4 vértices.
+- Con la tecla C se puede cambiar entre distintos colores de relleno
+- Con A y D se rota sobre el eje Y
+- Con W y S se rota sobre el eje X
+
+**Ejercicio:**
+
+- Dibujar un triángulo dentro del campo de visión de la escena.
+- Active un temporizador (100 ms) para que gire 3° el triángulo sobre el eje z.	
 
 **Ejercicio:**
 
