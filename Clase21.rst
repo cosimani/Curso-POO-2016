@@ -8,7 +8,7 @@ Clase 21 - POO 2016
 Modelo de sombreado
 ^^^^^^^^^^^^^^^^^^^
 
-- Lo especificamos con la función ``glShadeModel()``. ``(shade = sombra)``
+- Lo especificamos con la función ``glShadeModel()``. ``(shade = tono - matiz)``
 - Si el parámetro es ``GL_FLAT`` se rellena con el úlimo color activo. ``(flat = plano)``
 - Con ``GL_SMOOTH`` se interpolan los colores de cada vértice. ``(smooth = suavizar)``
 
