@@ -95,7 +95,7 @@ Modelo de sombreado
 	gluPerspective(45.0f,(GLfloat)(width/height), 0.01f, 100.0f);
 	// donde width y height es el ancho y alto de la escena
 
-- Par autilizar gluPerspective es necesario linkear a la librería en el .pro:
+- Para utilizar ``gluPerspective`` es necesario linkear a la librería en el .pro:
 
 .. code-block:: c
 	
