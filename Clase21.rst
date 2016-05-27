@@ -86,16 +86,58 @@ Seguimiento continuo del mouse
 - Por defecto se encuentra desactivado.
 - Cuando está desactivado sólo se reciben los eventos del movimiento del mouse cuando al menos se presiona un botón del mismo.
 
+Modelo de sombreado
+^^^^^^^^^^^^^^^^^^^
+
+- Lo especificamos con la función ``glShadeModel()``. ``(shade = sombra)``
+- Si el parámetro es ``GL_FLAT`` se rellena con el úlimo color activo. ``(flat = plano)``
+- Con ``GL_SMOOTH`` se interpolan los colores de cada vértice. ``(smooth = suavizar)``
+
+.. code-block:: c
+     
+	glShadeModel(GL_SMOOTH);	
+	glBegin(GL_TRIANGLES);
+	    glColor3f(1, 0, 0); // activamos el color rojo
+	    glVertex3f(-1.0f, -0.5f, 0.0f);
+	    glColor3f(0, 1, 0); // activamos el color verde
+	    glVertex3f(1.0f, 0.0f, 0.0f);
+	    glColor3f(0, 0, 1); // activamos el color azul
+	    glVertex3f(0.3f, 1.0f, 0.0f);
+	glEnd();
+
 **Ejercicio:**
 
 - Dibujar un cajón deforme sin tapa con un color distinto en cada lado.
 - Utilizar el teclado para hacerlo rotar sobre los tres ejes.
 
+**Ejercicio:**
+
+- Marcar 4 puntos en la escena donde se haga clic con el mouse.
+- Ni bien se marque el 4to, automáticamente se generará el polígono de 4 vértices.
+- Con la tecla C se puede cambiar entre distintos colores de relleno
+- Con A y D se rota sobre el eje Y
+- Con W y S se rota sobre el eje X
+
+**Ejercicio:**
+
+- Dibujar un triángulo dentro del campo de visión de la escena.
+- Active un temporizador (100 ms) para que gire 3° el triángulo sobre el eje z.
+
+**Transformación de viewport (o vista)**
+
+- Análogamente con una cámara de fotos, es el tamaño de la fotografía.
+- Generalmente se inicializa para que ocupe toda la ventana.
+- Pensar en la relación ancho / alto.
+
+.. code-block:: c
+
+	void glViewport(GLint x, GLint y, GLsizei width, GLsizei height);
+
 MiniExámenes
 ============
 
 - Se promediarán para la tercer nota de POO
-- Previstos: May 27 - May 31 - Jun 7 - Jun 10 - Jun 14
+- Previstos: May 27 - May 31 - Jun 3 - Jun 7 - Jun 14
 - Tiempo: 30 minutos
 - Temas para el 27 de mayo: 
 	- Login
@@ -113,14 +155,10 @@ Ejercitando con Emi Kohmann
 
 - `Esqueleto OpenGL <https://github.com/cosimani/Curso-POO-2016/blob/master/sources/clase20/poo_empty.rar?raw=true>`_
 
-- `Ejemplo de las Ruedas <https://github.com/cosimani/Curso-POO-2016/blob/master/sources/clase20/ruedas.rar?raw=true>`_
-
 **Ejercicio:**
 
 - Realizar el cierre convexo de los extremos de los rayos, para convertir los rayos en una rueda.
 - Realizar una matriz de ruedas cerradas, donde cada rueda gire hacia el sentido opuesto de las ruedas adyacentes.
-
-
 
 
 
