@@ -51,7 +51,7 @@ MiniExámenes
 ============
 
 - Se promediarán para la tercer nota de POO
-- Previstos: May 31 - Jun 3 - Jun 7 - Jun 14
+- Previstos: May 31 - Jun 7 - Jun 10 - Jun 14
 - Tiempo: 30 minutos
 - Temas para el 31 de mayo: 
 	- Descarga de imágenes de internet
