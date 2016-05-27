@@ -46,7 +46,86 @@ Modelo de sombreado
 .. code-block:: c
 
 	void glViewport(GLint x, GLint y, GLsizei width, GLsizei height);
+	
+**Proyecciones**
 
+- La proyección define el volumen del espacio que va a usarse para formar la imagen.
+- Los vértices de la escena es afectada por la matriz de proyección.
+- Es necesario activarla e inicializarla:
+
+.. code-block:: c
+
+	glMatrixMode(GL_PROJECTION);
+	glLoadIdentity();
+
+**Proyección ortogonal**
+
+- Define un volumen de la vista como una "caja".
+- La distancia de un objeto a la cámara no influye en su tamaño.
+
+.. code-block:: c
+
+	void glOrtho(GLdouble left, GLdouble right, GLdouble bottom, GLdouble top, GLdouble near, GLdouble far)
+
+.. figure:: images/clase21/ortogonal.png
+
+.. figure:: images/clase21/proyeccion_ortogonal.png
+
+**Proyección perspectiva**
+
+- Define un volumen de la vista como una pirámide truncada (o frustum).
+- Los objetos aparecen más pequeños mientras más alejados están de la cámara.
+
+.. code-block:: c
+
+	void glFrustum(GLdouble left, GLdouble right, GLdouble bottom, GLdouble top, GLdouble near, GLdouble far)
+	
+.. figure:: images/clase21/frustum.png	
+
+.. code-block:: c
+
+	void gluPerspective(angulo, aspecto, znear, zfar);
+
+.. figure:: images/clase21/perspective.png	
+
+- Es muy común usar:
+
+.. code-block:: c
+
+	gluPerspective(45.0f,(GLfloat)(width/height), 0.01f, 100.0f);
+	// donde width y height es el ancho y alto de la escena
+
+- Par autilizar gluPerspective es necesario linkear a la librería en el .pro:
+
+.. code-block:: c
+	
+	// Para Linux
+	unix:LIBS += "/usr/lib/x86_64-linux-gn/libGLU.so"
+
+	// Para Windows
+	win32::LIBS += -lGLU	
+
+	// Posiblemente también requiera incluir el archivo de cabecera:
+	#include <GL/glu.h>
+
+**Posicionando la cámara**
+
+- La siguiente función realiza el efecto del posicionamiento de la cámara.
+
+.. code-block:: c
+
+	void gluLookAt(GLdouble ojoX, GLdouble ojoY, GLdouble ojoZ, 
+	               GLdouble haciaX, GLdouble haciaY, GLdouble haciaZ, 
+	               GLdouble upX, GLdouble upY, GLdouble upZ)
+				   
+.. figure:: images/clase21/lookat.png			
+
+**Ejercicio:**
+
+- Dibujar un cuadrado cualquiera en el plano z=-2.
+- Controlar la posición de la cámara con las teclas.
+- La cámara siempre vertical y mirando al punto (0, 0, -100).
+		   
 MiniExámenes
 ============
 
