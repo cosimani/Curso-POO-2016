@@ -2,8 +2,8 @@
 
 .. _rcs_subversion:
 
-Clase 23 - POO 2016
-===================
+Clase 23 - Segundo Parcial
+==========================
 
 
 	
