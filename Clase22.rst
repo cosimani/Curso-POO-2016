@@ -30,6 +30,11 @@ Clase 22 - POO 2016
 - Dibujar un cuadrado cualquiera en el plano z=-2.
 - Controlar la posición de la cámara con las teclas.
 - La cámara siempre vertical y mirando al punto (0, 0, -100).
+
+**Ejercicio:**
+
+- Dibujar una ruta con la línea blanca interrumpida.
+- Con las teclas Up y Down acelerar y frenar
 		   
 MiniExámenes
 ============
@@ -45,6 +50,19 @@ MiniExámenes
 	- QTimer
 	- Dibujar con QPainter
 	- GUI con QtDesigner
+
+Temas para 2do parcial
+======================
+
+- GUI y promoción con QtDesigner
+- Señales propias
+- Escenas con OpenGL
+- glOtho y gluPerspective
+- Rotación, traslación y escalado
+- Colores planos y en degradé
+- Eventos del mouse y del teclado
+- QTimer para actualizar la escena
+
 	
 
 
