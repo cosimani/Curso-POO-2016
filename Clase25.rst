@@ -122,7 +122,7 @@ Levantar base de datos a QTableView
 	// Para modificar como una planilla de excel
 	tableModelAlumnos->setEditStrategy(QSqlTableModel::OnManualSubmit); 
 
-	// Otra relación. La de los referentes.
+	// Otra relación. En lugar de mostrar el id_carrera que muestre el nombre de la carrera.
 	tableModelAlumnos->setRelation(5, QSqlRelation("carreras", "id", "nombre"));
 
 	tableModelAlumnos->select();  // Hace la consulta.
@@ -140,7 +140,7 @@ Levantar base de datos a QTableView
 	// Lista desplegable con el nombre de la carrera, esto cuando se modifique la celda.
 	ui->tableViewAlumnos->setItemDelegate(new QSqlRelationalDelegate(ui->tableViewAlumnos));
 
-	// Ocultamos la columna id.
+	// Ocultamos la columna id de la tabla alumnos.
 	ui->tableViewAlumnos->setColumnHidden(0, true);
 
 	// Ajusta el ancho de la celda con el texto en su interior. Para todas las columnas.
@@ -158,7 +158,9 @@ Levantar base de datos a QTableView
 
 **Ejercicio**
 
-- Hacerlo funcionar mostrando la tabla usuarios
+- Hacerlo funcionar mostrando la tabla usuarios y su relación con tabla carreras
+- Tabla alumnos: id, legajo, nombre, apellido, mail, id_carrera
+- Tabla carreras: id, nombre
 - Usar QtDesigner
 		
 
