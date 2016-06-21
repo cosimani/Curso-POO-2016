@@ -110,7 +110,7 @@ Declaraciones friend
 Levantar base de datos a QTableView
 ===================================
 
-- Colocar con el QtDesign un QTableView
+- Colocar con el QtDesigner un QTableView
 
 .. code-block:: c
 
